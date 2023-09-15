@@ -1,2 +1,4 @@
-# comfyui-api-part1-basic-workflow
-config and script files used in tutorial
+# ComfyUI : API :Part 1 Basic Workflow
+
+These are the files used in my tutorial/guide:
+https://medium.com/@yushantripleseven/comfyui-using-the-api-261293aa055a
