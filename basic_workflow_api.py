@@ -32,6 +32,7 @@ ksampler_node = prompt_workflow["3"]
 save_image_node = prompt_workflow["9"]
 
 # load the checkpoint that we want. 
+# make sure the path is correct to avoid 'HTTP Error 400: Bad Request' errors
 chkpoint_loader_node["inputs"]["ckpt_name"] = "SD1-5/sd_v1-5_vae.ckpt"
 
 # set image dimensions and batch size in EmptyLatentImage node
